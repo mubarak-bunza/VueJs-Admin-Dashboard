@@ -21,6 +21,11 @@ const routes = [
     component: Dashboard
   },
   {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: Dashboard
+  },
+  {
     path: '/icons',
     name: 'icons',
     component: Icons
