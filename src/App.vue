@@ -5,7 +5,7 @@
       <div class="main-panel">
         <app-navbar />
         <div class="content">
-          <router-view/>
+          <router-view />
         </div>
         <app-footer />
       </div>

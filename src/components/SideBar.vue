@@ -26,46 +26,46 @@
             </router-link>
           </li>
           <li>
-            <a href="./map.html">
+            <router-link to="/appmap">
               <i class="tim-icons icon-pin"></i>
               <p>Maps</p>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="./notifications.html">
+            <router-link to="/notifications">
               <i class="tim-icons icon-bell-55"></i>
               <p>Notifications</p>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="./user.html">
+            <router-link to="/userProfile">
               <i class="tim-icons icon-single-02"></i>
               <p>User Profile</p>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="./tables.html">
+            <router-link to="/tables">
               <i class="tim-icons icon-puzzle-10"></i>
               <p>Table List</p>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="./typography.html">
+            <router-link to="/typography">
               <i class="tim-icons icon-align-center"></i>
               <p>Typography</p>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="./rtl.html">
+            <router-link to="/rtl">
               <i class="tim-icons icon-world"></i>
               <p>RTL Support</p>
-            </a>
+            </router-link>
           </li>
-          <li class="active-pro">
-            <a href="./upgrade.html">
+          <li>
+            <router-link to ="/upgradepro">
               <i class="tim-icons icon-spaceship"></i>
               <p>Upgrade to PRO</p>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>
