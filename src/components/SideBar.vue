@@ -14,7 +14,7 @@
         </div>
         <ul class="nav">
           <li class="active ">
-            <router-link to="/dashboard">
+            <router-link to="/">
               <i class="tim-icons icon-chart-pie-36"></i>
               <p>Dashboard</p>
             </router-link>
