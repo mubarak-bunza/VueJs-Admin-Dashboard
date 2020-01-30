@@ -88,5 +88,7 @@
 </script>
 
 <style lang="scss" scoped>
- 
+  .router-link-active{
+    background-color: aqua;
+  }
 </style>

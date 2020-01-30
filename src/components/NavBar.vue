@@ -11,7 +11,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="javascript:void(0)">Dashboard</a>
+            <a class="navbar-brand" href="javascript:void(0)">{{currentPage}}</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -81,7 +81,11 @@
 
 <script>
     export default {
-
+      computed: {
+        currentPage(){
+          return this.$route.name;
+        }
+      }
     }
 </script>
 
